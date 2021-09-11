@@ -1,0 +1,17 @@
+---
+---
+
+@import "variables";
+
+$lily-color: #40aa6b;
+
+$primary: $lily-color;
+
+@import "bootstrap/bootstrap";
+@import "bootswatch";
+
+nav.navbar {
+  margin-bottom: 15px;
+}
+
+// TODO
