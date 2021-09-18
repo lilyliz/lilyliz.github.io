@@ -12,6 +12,112 @@ $primary: $lily-color;
 
 nav.navbar {
   margin-bottom: 15px;
+  a.navbar-brand {
+    font-size: 18pt;
+  }
+  li.nav-item {
+    font-size: 18pt;
+  }
 }
+
+.home-hero {
+  text-align: center;
+  margin: 0 auto;
+  h1 {
+    font-size: 100pt;
+  }
+  p {
+    font-size: 18pt;
+  }
+  button {
+    font-size: 24pt;
+    margin-right: 15px;
+    padding: 12px 16px;
+  }
+}
+
+.footer {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.content-cv {
+  width: 8.5in;
+  margin: 0 auto;
+
+  h1 {
+    text-align: center;
+    margin-bottom: 0;
+  }
+  .cv-subtitle {
+    text-align: center;
+    margin-bottom: 25px;
+  }
+  h2 {
+    color: $primary;
+    font-weight: bold;
+    margin-top: 25px;
+  }
+  p {
+    margin-block-end: 0.5em;
+  }
+  h3 {
+    color: $text-muted;
+    margin-top: -0.5em;
+    font-size: 14px;
+  }
+  ul {
+    font-size: 14px;
+  }
+}
+
+.content-document {
+  h1 {
+    text-align: center;
+  }
+
+  h2 {
+    margin-top: 25px;
+  }
+
+  ol#footnotes {
+    list-style: none;
+  }
+
+  .attribution {
+    text-align: right;
+    margin-top: -1.5em;
+    margin-right: 20px;
+  }
+}
+
+blockquote {
+  border-left: 7px solid #ccc;
+  margin: 1.5em 10px;
+  padding: 0.5em 10px;
+  quotes: "\201C""\201D""\2018""\2019";
+
+  :before {
+    color: #ccc;
+    content: open-quote;
+    font-size: 3em;
+    line-height: 0.1em;
+    margin-right: 0.25em;
+    vertical-align: -0.4em;
+  }
+  :after {
+    color: #ccc;
+    content: close-quote;
+    font-size: 3em;
+    line-height: 0.1em;
+    margin-left: 0.25em;
+    vertical-align: -0.4em;
+  }
+
+  p {
+    display: inline;
+  }
+}
+
 
 // TODO
