@@ -15,3 +15,6 @@ markdown: kramdown
 kramdown:
   auto_ids: false
   parse_block_html: true
+
+sass:
+  sass_dir: ./_sass
