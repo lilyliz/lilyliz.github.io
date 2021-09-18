@@ -9,6 +9,7 @@ description: >-
   Google search results) and in your feed.xml site description.
 
 url: "https://lily.coffee"
+enforce_ssl: "lily.coffee"
 
 markdown: kramdown
 
