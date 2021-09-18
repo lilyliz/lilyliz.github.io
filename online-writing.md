@@ -1,7 +1,7 @@
 ---
 layout: default
 title: The Efficacy of Online Writing
-permalink: /online-writing
+permalink: /online-writing/
 class: document
 ---
 
