@@ -14,6 +14,11 @@ h1 {
   text-align: center;
 }
 
+h2 {
+  color: $primary;
+  font-weight: bold;
+}
+
 nav.navbar {
   margin-bottom: 15px;
   a.navbar-brand {
@@ -59,8 +64,6 @@ nav.navbar {
     margin-bottom: 25px;
   }
   h2 {
-    color: $primary;
-    font-weight: bold;
     margin-top: 25px;
   }
   p {
